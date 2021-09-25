@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sup{
+    display: flex;
+    align-items: center;
+    border: 2px solid transparent;
+    height: 100px;
+    width: 1000px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ff7c39;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 25px;
+    text-decoration: none;
+    color: #fff;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+}
+.logo:hover{
+    color: #fff;
+}
+
+.menu{
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+}
+.menu li{
+    margin-left: 40px;
+}
+.bouton{
+    border: 2px solid transparent;
+    width: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 450px;
+    left: 450px;
+}
+.btn1{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 40px;
+    margin-right: 40px;
+    border: 2px solid transparent;
+    font-size: 13px;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    color: #fff;
+}
+.btn1:hover{
+    color: #fff;
+}
+.btn2{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border: 2px solid #fff;
+    color: #f6c9aa;
+    border-radius: 5px;
+    width: 80px;
+    height: 40px;
+    font-size: 13px;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+}
+.btn2:hover{
+    color: #f6c9aa;
+}
+.sup2{
+    background-color: #f6c9aa;
+    border-radius: 50% 0 0 50%;
+    height: 1000px;
+    width: 800px;
+    position: relative;
+    bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.suo{
+    display: flex;
+    justify-content: space-between;
+    border: 0px solid transparent;
+}
+
+.text{
+    border: 2px solid transparent;
+    width: 500px;
+    height: 500px;
+    margin-top: 50px;
+}
+
+.text h1{
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+.text p{
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.text span{
+    font-weight: bolder;
+}
+
+.btn3{
+    border: 2px solid #ff7c39;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background: #ff7c39;
+}
+.btn3 a{
+    color: #fff;
+    text-decoration: none;
+}
+.boite{
+  position: relative;
+  bottom: 350px;
+}
+.boite .titre1{
+    margin-bottom: 40px;
+    margin-left: 50px;
+    font-size: 16px;
+    font-weight: bolder;
+}
+.boite2{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    height: 150px;
+    width: 950px;
+    margin-left: 20px;
+    background: #fff;
+}
+.element1 h1{
+    font-size: 18px;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: medium;
+}
+.boite a{
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+.element1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid #f6ebb1;
+    border-radius: 10px;
+    width: 200px;
+    height: 100px;
+    margin: 30px;
+    background: #f6ebb1;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.element2 h1{
+    font-size: 18px;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: medium;
+}
+.element2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid #cdf6af;
+    border-radius: 10px;
+    width: 200px;
+    height: 100px;
+    background: #cdf6af;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.element3 h1{
+    font-size: 16px;
+    position: relative;
+    top: 25px;
+}
+.element3 p{
+    border: 2px solid gray;
+    border-radius: 5px;
+    height: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 10px;
+    font-weight: bold;
+    position: relative;
+    top: 29px;
+}
+.element3{
+    border: 2px solid transparent;
+    margin-left: 30px;
+    border-radius: 10px;
+    width: 200px;
+    height: 100px;
+}
+.mod a{
+    color: #fff;
+    font-weight: 600;
+}
+.mod{
+    position: relative;
+    left: 50px;
+}
+
+.social{
+    border: 2px solid transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 370px;
+    height: 50px;
+    position: relative;
+    bottom: 450px;
+    left: 979px;
+}
+
+.social-f{
+    display: flex;
+    border: 1px solid #fff;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.social-i{
+    display: flex;
+    border: 1px solid #fff;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-t{
+    display: flex;
+    border: 1px solid #fff;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.social a{
+    text-decoration: none;
+    color: #fff;
+}
